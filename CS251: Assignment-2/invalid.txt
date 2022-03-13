@@ -1,0 +1,48 @@
+program exSubrange;
+const
+PI = 3.14;
+var
+a : integer;
+b : string;
+d, e, f : real;;
+begin
+s := a + 10;
+a,b = 5, 7;
+readln(a,b,s);
+s:=ReadKey;
+writeln('Abhay');
+for i:=5 to 1 do
+begin
+repeat 
+a:=10;
+writeln('hi');
+while number>0 do
+begin
+case (PI) of
+'A' : writeln('1');
+'B' : writeln('2');
+end;
+// Hello, please give marks!
+function max(num1, num2 : integer): integer;
+var
+   result: integer;
+
+begin
+      result := num1;
+      result := num2;
+   max := result;
+end;
+sum := sum - 4;
+writeln(7);
+end;
+until(a=20) or (b=30); 
+end;
+if a=10 then
+b = 20;
+else if c=0
+{No ";" is required after the last statement of a block -
+        adding one adds a "null statement" to the program, which is ignored by the compiler.}
+writeln('l');
+else
+b=9;
+end.
