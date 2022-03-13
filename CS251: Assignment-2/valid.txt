@@ -1,0 +1,72 @@
+{
+	The following is a sample Pascal Code containing Identifiers, Data Types, Simple as well as Conditional Statements, Functions and Single/Multi-Line Comments!
+}
+
+program Assignment2(i,l,p:integer);
+	const 
+		// Defining constants
+		PI=3.141578; 
+	var
+		// Defining variables
+		a,b,s : integer;
+		c : char;
+		d : boolean;
+		e,f : real;
+		
+	begin
+		// Code begins
+		s := a+110;
+		a,b = 5,7;
+		
+		// Taking input
+		readln(a,b,s);
+		s:=ReadKey;
+		
+		// Printing input
+		writeln(a,b,s);
+		
+		// For-Loop
+		for i:=5 to 1 do
+		begin
+			continue;
+			// Repeat-Until Statement 
+			repeat 
+				a := a-10;
+				writeln('hi');
+			until(a=20) or (b=30); 
+			a := 10;
+			writeln('Abhay');
+		end;
+		
+		// While-Loop
+		while s>0 do
+		begin
+			// Swtich-Case Statement
+			case (Grade) of
+				'A' : writeln('Pass');
+				'F' : writeln('Fail');
+			end;
+			// Hello, please give marks!
+			s := s - 4;
+			writeln(7);
+		end;
+		
+		// Function Defination
+		function max(num1, num2: integer): integer;
+		var
+			result: integer;
+
+		begin
+			// If Else-If Statement
+			if (num1 > num2) then
+	        		result := num1;
+	        		break;
+	        	else if (num1 < num2 )
+	        		result := num2;
+		   	else
+		      		result := 1;
+		   	max := result;
+		   	return max;
+		end;
+		s := max(a,b);
+	end.
